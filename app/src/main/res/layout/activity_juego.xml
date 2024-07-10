@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/fondo21" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Tiempo:"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:translationY="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/tv_tiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="0s"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:translationY="60dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/sacos"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/sacos"
+        android:translationX="-560dp"
+        android:translationY="125dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/polloEscondido"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pollo61"
+        android:translationX="-415dp"
+        android:translationY="130dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/casa"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/casa"
+        android:translationX="-450dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/gallinaHuevos"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gallina"
+        android:translationX="-495dp"
+        android:translationY="-2dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/polloTecho"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pollo21"
+        android:translationX="-150dp"
+        android:translationY="-315dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/gallinaSaco"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gallina1"
+        android:translationX="-565dp"
+        android:translationY="80dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/polloFrente"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pollo41"
+        android:translationX="100dp"
+        android:translationY="135dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/regaderaVacia"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:rotation="-800"
+        android:src="@drawable/regaderavacia1"
+        android:translationX="-50dp"
+        android:translationY="50dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/regadera"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/regadera"
+        android:translationX="-450dp"
+        android:translationY="-115dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/rastrillo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:rotation="-12"
+        android:src="@drawable/tridente"
+        android:translationX="180dp"
+        android:translationY="-295dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/gallinaSaluda"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gallina5"
+        android:translationX="360dp"
+        android:translationY="20dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/tronco"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/tronco"
+        android:translationX="400dp"
+        android:translationY="50dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/pala"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:rotation="50"
+        android:src="@drawable/pala"
+        android:translationX="160dp"
+        android:translationY="-70dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/polloEspanta"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pollo71"
+        android:translationX="-165dp"
+        android:translationY="5dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/espanta"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/espanta"
+        android:translationX="-150dp"
+        android:translationY="-50dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/regaderaRoja"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/regaderaroja1"
+        android:translationX="-200dp"
+        android:translationY="-225dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/gallo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gallo"
+        android:translationX="580dp"
+        android:translationY="100dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/arbustos"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/arbustodos"
+        android:translationX="600dp"
+        android:translationY="140dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/paja"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:rotation="-70"
+        android:src="@drawable/paja"
+        android:translationX="500dp"
+        android:translationY="-140dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/gallinaHoja"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gallina4"
+        android:translationX="-240dp"
+        android:translationY="55dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/arbusto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/arbusto"
+        android:translationX="-250dp"
+        android:translationY="100dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/polloTronco"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pollo51"
+        android:translationX="460dp"
+        android:translationY="5dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/gallinaFrente"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gallina3"
+        android:translationX="-160dp"
+        android:translationY="140dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/polloGranero"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pollo31"
+        android:translationX="10dp"
+        android:translationY="-50dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/gallinaHuevosCopia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gallina"
+        android:translationX="-490dp"
+        android:translationY="290dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/galloCopia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gallo"
+        android:translationX="-490dp"
+        android:translationY="290dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/regaderaVaciaCopia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/regaderavacia1"
+        android:translationX="-250dp"
+        android:translationY="290dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/gallinaSacoCopia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gallina1"
+        android:translationX="-250dp"
+        android:translationY="290dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/palaCopia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pala"
+        android:translationX="-250dp"
+        android:translationY="290dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/rastrilloCopia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/tridente"
+        android:translationY="290dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/polloEscondidoCopia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pollo61"
+        android:translationY="290dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/gallinaFrenteCopia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gallina3"
+        android:translationX="250dp"
+        android:translationY="290dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/pajaCopia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/paja"
+        android:translationX="250dp"
+        android:translationY="290dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/regaderaCopia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/regadera"
+        android:translationX="250dp"
+        android:translationY="290dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/regaderaRojaCopia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/regaderaroja1"
+        android:translationX="520dp"
+        android:translationY="290dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/polloFrenteCopia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pollo41"
+        android:translationX="500dp"
+        android:translationY="290dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/x"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/mas5"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_tiempo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="0s"
+        android:textColor="#000000"
+        android:textSize="70sp"
+        android:translationY="400dp"
+        android:translationX="500dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Tu tiempo:"
+        android:textColor="#000000"
+        android:textSize="70sp"
+        android:translationY="300dp"
+        android:translationX="450dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible" />
+
+</RelativeLayout>
